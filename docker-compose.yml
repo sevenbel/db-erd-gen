@@ -1,0 +1,7 @@
+version: '3'
+services:
+  db-erd-gen:
+    build: .
+    ports:
+      - "3000:5173"
+
